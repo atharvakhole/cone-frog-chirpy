@@ -1,0 +1,37 @@
+<div class="about-image-inline-container">
+  <img src="{{ include.image_path }}" alt="{{ include.image_alt }}">
+  <div style="margin-right: auto; margin-bottom: auto;">
+    <h2 style="margin-top: 0.25rem; margin-bottom: 1rem;">{{ include.title }}</h2>
+    <h4 style="margin: 0rem 0rem 1rem 0rem;">{{ include.subtitle }}</h4>
+    <p>{{ include.description-1 }}</p>
+    <p>{{ include.description-2 }}</p>
+  </div>
+</div>
+<style>
+  .about-image-inline-container {
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+    /* Vertically align items */
+  }
+
+  .about-image-inline-container img {
+    width: 72rem;
+    /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+    /* Maintain image aspect ratio */
+    /* Add spacing between the image and paragraph */
+  }
+
+  @media (max-width: 600px) {
+    .about-image-inline-container {
+      flex-direction: column;
+      /* Stack items vertically */
+    }
+
+    .about-image-inline-container img {
+      margin: 2rem;
+      /* Remove margin between the image and paragraph */
+    }
+  }
+</style>
