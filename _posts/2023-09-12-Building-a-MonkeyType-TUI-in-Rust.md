@@ -1,10 +1,13 @@
 ---
 title: "Building a MonkeyType TUI Application in Rust - Part 1"
-date: "2023-09-08 17:00:00 +0800"
+date: "2023-09-12 17:00:00 +0800"
 description: "First part of a Rust Programming Language tutorial series. Learn by building a Terminal UI application using ratatui crate and crossterm. Building a terminal clone of MonkeyType. Complete guide on using ratatui, crossterm, tui-rs"
 categories: [Rust, TUI]
 tags: [cli, tui-rs, rust, ratatui]
 img_path: /assets/img/
+keywords: [Rust, Programming in Rust, TUI Application, Rust by example, MonkeyType, Rust Project]
+abstract: "A new series where I build a TUI clone of MonkeyType in Rust using the ratatui crate. In this part I go over some background, and a general overview of the project as well as some intial setup."
+proficiency: "Beginner"
 ---
 ![banner image of the monkeytype website](blog-001-02.png)
 _MonkeyType_

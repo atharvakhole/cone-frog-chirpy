@@ -25,8 +25,9 @@ tagline: Atharva Khole # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   A programming and development blog, focused on learning new and exciting technologies and languages, predominantly the Rust programming language.
 
+keywords: "rust programming rust-lang crates.io tutorial learning example technology software developer"
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://cone-frog.dev"
 
 github:
   username: atharvakhole # change to your github username
